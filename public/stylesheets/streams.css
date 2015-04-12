@@ -1,0 +1,228 @@
+html {
+  height: 100%;
+  font-size: 100%;
+}
+html body {
+  height: 100%;
+  background: #000;
+  color: #c0c0c0;
+  margin: 0;
+  padding: 0;
+}
+html body .menuButton {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.75);
+  font-size: 4vh;
+  margin: 1vh;
+  cursor: pointer;
+  max-height: 100%;
+  z-index: 100;
+}
+html body .container-fluid {
+  height: 100%;
+  padding: 0;
+}
+html body .container-fluid .topHeader {
+  height: 7%;
+}
+html body .container-fluid .topHeader h1,
+html body .container-fluid .topHeader h2 {
+  height: 100%;
+  margin: 0;
+  text-align: center;
+  font-size: 6vh;
+  font-family: 'Playball', cursive;
+}
+html body .container-fluid .topHeader .glyphicon {
+  font-size: 4vh;
+  padding: 1vh;
+  cursor: pointer;
+  max-height: 100%;
+}
+html body .container-fluid .topHeader .activeAllStreams {
+  color: #f00;
+}
+html body .container-fluid .topHeader #about {
+  z-index: 6;
+  display: none;
+  position: fixed;
+  top: 35%;
+  left: 35%;
+  border: 1px solid #c0c0c0;
+  background: #000;
+  padding: 0 20px 10px 20px;
+  max-width: 500px;
+}
+html body .container-fluid .topHeader #about h2,
+html body .container-fluid .topHeader #about h3 {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+html body .container-fluid .topHeader #about p>span {
+  color: #f00;
+}
+html body .container-fluid .topHeader #about .glyphicon-remove-circle {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 18pt;
+  cursor: pointer;
+}
+html body .container-fluid #flexBox.fullHeight {
+  height: 100%;
+}
+html body .container-fluid #flexBox {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  height: 93%;
+  min-height: 600px;
+  min-width: 1200px;
+}
+html body .container-fluid #flexBox #streamsList {
+  flex-grow: 1;
+  min-width: 265px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+html body .container-fluid #flexBox #streamsList .streamPreview {
+  position: relative;
+  flex-grow: 1;
+  border: 1px solid #c0c0c0;
+  min-height: 150px;
+}
+html body .container-fluid #flexBox #streamsList .streamPreview .streamPreviewControl {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  background: rgba(0,0,0,0.75);
+  padding: 2px 5px;
+}
+html body .container-fluid #flexBox #streamsList .streamPreview .streamPreviewControl .glyphicon {
+  font-size: 16pt;
+  cursor: pointer;
+}
+html body .container-fluid #flexBox #streamsList .streamPreview .streamPreviewPlayer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+html body .container-fluid #flexBox #streamsList .streamPreview.active .streamPreviewPlayer {
+  z-index: 2;
+}
+html body .container-fluid #flexBox #streamsList .streamPreview.active .glyphicon-share-alt {
+  color: #f00;
+  transform: scaleX(-1);
+}
+html body .container-fluid #flexBox #streamsList .streamPreview.activePreview .streamPreviewPlayer {
+  z-index: 3;
+}
+html body .container-fluid #flexBox #streamsList .streamPreview.activePreview .glyphicon-eye-open {
+  color: #f00;
+}
+html body .container-fluid #flexBox #mainStream {
+  position: relative;
+  flex-grow: 1000;
+  border: 1px solid #c0c0c0;
+}
+html body .container-fluid #flexBox #mainStream .mainStreamContainer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+html body .container-fluid #flexBox #chats {
+  position: relative;
+  flex-grow: 1;
+  min-width: 300px;
+  border: 1px solid #c0c0c0;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+html body .container-fluid #flexBox #chats header {
+  flex-grow: 1;
+  text-align: center;
+  padding-top: 2px;
+}
+html body .container-fluid #flexBox #chats header .activeButton {
+  border-color: #f00;
+  color: #f00;
+  font-weight: bold;
+}
+html body .container-fluid #flexBox #chats .chatContainer {
+  flex-grow: 1000;
+  position: relative;
+}
+html body .container-fluid #flexBox #chats .chatContainer .chatElement {
+  position: absolute;
+  height: 100%;
+  display: none;
+  padding: 2px;
+}
+html body .container-fluid #streamChooser {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  right: 10%;
+  background: rgba(0,0,0,0.9);
+  border: 1px solid #c0c0c0;
+  text-align: center;
+  display: none;
+  z-index: 5;
+}
+html body .container-fluid #streamChooser #chooseSource div {
+  display: inline-block;
+  padding: 10px;
+  cursor: pointer;
+}
+html body .container-fluid #streamChooser #chooseSource div img {
+  max-height: 340px;
+}
+html body .container-fluid #streamChooser #searchButton {
+  margin-top: 10px;
+}
+html body .container-fluid #streamChooser #twitchSearch {
+  margin-top: 10px;
+}
+html body .container-fluid #streamChooser #twitchSearch input[type=text] {
+  margin-right: 10px;
+}
+html body .container-fluid #streamChooser nav {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+html body .container-fluid #streamChooser nav .glyphicon {
+  font-size: 24pt;
+  cursor: pointer;
+  margin: 3px;
+}
+html body .container-fluid #streamChooser .glyphicon-arrow-left {
+  font-size: 24pt;
+  cursor: pointer;
+  margin: 3px;
+  position: absolute;
+  left: 0;
+}
+html body .container-fluid #streamChooser .gameCard {
+  cursor: pointer;
+  display: inline-block;
+  width: 136px;
+  margin: 10px;
+}
+html body .container-fluid #streamChooser .streamCard {
+  cursor: pointer;
+  display: inline-block;
+  width: 320px;
+  margin: 10px;
+}
+html body .container-fluid #streamChooser .streamCard span {
+  color: #ff0;
+}

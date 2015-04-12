@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sergei Sidorov's personal web space!</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href='http://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+        <link rel='stylesheet' href='/stylesheets/style.css' />
+        <link href="stylesheets/lightbox.css" rel="stylesheet">
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-49980548-2', 'nightspeller.net');
+            ga('send', 'pageview');
+        </script>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>Sergei Sidorov's personal web space.</h1>
+            </header>
+            <nav>
+                <ul class="nav nav-tabs nav-justified">
+                    <li><a href="/">About</a></li>
+                    <li><a href="resume">Resume</a></li>
+                    <li class="active"><a href="portfolio">Portfolio</a></li>
+                </ul>
+            </nav>
+            <br />
+            <section>
+                <article class="panel panel-default">
+                    <div class="panel-heading panelBlueBg">
+                        <h3 class="panel-title">My works:</h3>
+                    </div>
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-sm-10">
+                                    <h3>Node.js projects</h3>
+                                    <h4><small>Freelance</small></h4>
+                                </div>
+                                <div class="col-sm-2 companyLogo">
+                                    <img src="img/portfolioImg/NodeProjects/freelanceLogo.png" alt="Node.js">
+                                </div>
+                            </div>
+
+                            <hr />
+                            <p><span class="text-info">Description:</span> Last year, I worked extensively with Node.js. First, I used it as an assembler for front-end code (Brunch),
+                                then I started to learn Express and other back-end related modules and frameworks. Now, I have 2 commercial web portals and bunch of personal projects
+                                fully designed and written by me with NodeJS and MongoDB.
+                            <p>First is web portal of <a href="http://logist36.ru/">Voronezh Alliance of Logistics Specialists</a>, second is completely rewritten <a href="http://new.lanks.net/">Lanks</a> transport company web portal.</p>
+                            <p>In second case, I developed cargo tracking, price calculation, online ordering, RESTful API for partners, administrator interface, content management system and more!</p>
+                            </p>
+                            <figure class="row">
+                                <div class="col-sm-4"><a href="img/portfolioImg/NodeProjects/ALV1.png" data-lightbox="home"><img src="img/portfolioImg/NodeProjects/ALV1.png" class="img-responsive" alt="ALV 1"></a></div>
+                                <div class="col-sm-4"><a href="img/portfolioImg/NodeProjects/ALV2.png" data-lightbox="home"><img src="img/portfolioImg/NodeProjects/ALV2.png" class="img-responsive" alt="ALV 2"></a></div>
+                                <div class="col-sm-4"><a href="img/portfolioImg/NodeProjects/ALV3.png" data-lightbox="home"><img src="img/portfolioImg/NodeProjects/ALV3.png" class="img-responsive" alt="ALV 3"></a></div>
+                            </figure>
+                            <figure class="row">
+                                <div class="col-sm-4"><a href="img/portfolioImg/NodeProjects/codeScreenshot1.png" data-lightbox="home"><img src="img/portfolioImg/NodeProjects/codeScreenshot1.png" class="img-responsive" alt="Lanks Code 1"></a></div>
+                                <div class="col-sm-4"><a href="img/portfolioImg/NodeProjects/codeScreenshot2.png" data-lightbox="home"><img src="img/portfolioImg/NodeProjects/codeScreenshot2.png" class="img-responsive" alt="Lanks Code 1"></a></div>
+                                <div class="col-sm-4"><a href="img/portfolioImg/NodeProjects/codeScreenshot3.png" data-lightbox="home"><img src="img/portfolioImg/NodeProjects/codeScreenshot3.png" class="img-responsive" alt="Lanks Code 1"></a></div>
+                            </figure>
+                            <p><span class="text-info">Technologies:</span> <strong>Node.js (Express)</strong>, <strong>MongoDB</strong>, HTML+JS+CSS (+frameworks), Git (Github), <strong>AWS</strong> or dedicated servers, agile.</p>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-sm-9">
+                                    <h3>Ultimate Poker multi-platform application</h3>
+                                    <h4><small>for Ultimate Gaming</small></h4>
+                                </div>
+                                <div class="col-sm-3 companyLogo">
+                                    <img src="img/portfolioImg/UG/poker/pokerLogo.jpg" alt="Ultimate Poker">
+                                </div>
+                            </div>
+
+                            <hr />
+                            <p><span class="text-info">Description:</span> In this project, my team and I developed server-driven multi-platform poker game client, capable of working on Mac, Windows, iPad, Android tablets and in the browser.
+                                During the development, I participated in creation of a set of complicated instruments, including: Bots Management Service, Replay Service, Log Processing Service and more.
+                                Unfortunately, now you can't play it due to the close of Ultimate Gaming, but here are some screenshots:
+                            </p>
+                            <figure class="row">
+                                <div class="col-sm-2 col-sm-offset-1"><a href="img/portfolioImg/UG/poker/UGPoker2.png" data-lightbox="home"><img src="img/portfolioImg/UG/poker/UGPoker2.png" class="img-responsive" alt="UG Poker 1"></a></div>
+                                <div class="col-sm-2"><a href="img/portfolioImg/UG/poker/UGPoker1.png" data-lightbox="home"><img src="img/portfolioImg/UG/poker/UGPoker1.png" class="img-responsive" alt="UG Poker 2"></a></div>
+                                <div class="col-sm-2"><a href="img/portfolioImg/UG/poker/UGPoker6.png" data-lightbox="home"><img src="img/portfolioImg/UG/poker/UGPoker6.png" class="img-responsive" alt="UG Poker 3"></a></div>
+                                <div class="col-sm-2"><a href="img/portfolioImg/UG/poker/UGPoker7.png" data-lightbox="home"><img src="img/portfolioImg/UG/poker/UGPoker7.png" class="img-responsive" alt="UG Poker 4"></a></div>
+                                <div class="col-sm-2"><a href="img/portfolioImg/UG/poker/UGPoker8.png" data-lightbox="home"><img src="img/portfolioImg/UG/poker/UGPoker8.png" class="img-responsive" alt="UG Poker 5"></a></div>
+                            </figure>
+                            <figure class="row">
+                                <div class="col-sm-4"><a href="img/portfolioImg/UG/poker/UGPoker3.png" data-lightbox="home"><img src="img/portfolioImg/UG/poker/UGPoker3.png" class="img-responsive" alt="UG Poker 6"></a></div>
+                                <div class="col-sm-4"><a href="img/portfolioImg/UG/poker/UGPoker4.png" data-lightbox="home"><img src="img/portfolioImg/UG/poker/UGPoker4.png" class="img-responsive" alt="UG Poker 7"></a></div>
+                                <div class="col-sm-4"><a href="img/portfolioImg/UG/poker/UGPoker5.png" data-lightbox="home"><img src="img/portfolioImg/UG/poker/UGPoker5.png" class="img-responsive" alt="UG Poker 8"></a></div>
+                            </figure>
+                            <p><span class="text-info">Technologies:</span> HTML5, CSS3, Canvas, <strong>Object-oriented JavaScript</strong>, <strong>Apache Cordova</strong>, <strong>CreateJS Suite</strong> (EaselJS, SoundJS), Google Chrome Dev tools, <strong>Apple Developer Kit</strong>, Subversion, JIRA.</p>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-sm-9">
+                                    <h3>Ultimate Casino Mobile application</h3>
+                                    <h4><small>for Ultimate Gaming</small></h4>
+                                </div>
+                                <div class="col-sm-3 companyLogo">
+                                    <img src="img/portfolioImg/UG/UGLogo.png" alt="Ultimate Casino">
+                                </div>
+                            </div>
+
+                            <hr />
+                            <p><span class="text-info">Description:</span> It was an online casino iOS app and all of its front-end was developed by me. Before September 2014, an app was available in Apple AppStore. Unfortunately, now it is not available anymore, but you can take a look at following screenshots:
+                            </p>
+                            <figure class="row">
+                                <div class="col-sm-2 col-sm-offset-1"><a href="img/portfolioImg/UG/mobile1.png" data-lightbox="home"><img src="img/portfolioImg/UG/mobile1.png" class="img-responsive" alt="mobile 1"></a></div>
+                                <div class="col-sm-2"><a href="img/portfolioImg/UG/mobile2.png" data-lightbox="home"><img src="img/portfolioImg/UG/mobile2.png" class="img-responsive" alt="mobile 2"></a></div>
+                                <div class="col-sm-2"><a href="img/portfolioImg/UG/mobile3.png" data-lightbox="home"><img src="img/portfolioImg/UG/mobile3.png" class="img-responsive" alt="mobile 3"></a></div>
+                                <div class="col-sm-2"><a href="img/portfolioImg/UG/mobile4.png" data-lightbox="home"><img src="img/portfolioImg/UG/mobile4.png" class="img-responsive" alt="mobile 4"></a></div>
+                                <div class="col-sm-2"><a href="img/portfolioImg/UG/mobile5.png" data-lightbox="home"><img src="img/portfolioImg/UG/mobile5.png" class="img-responsive" alt="mobile 5"></a></div>
+                            </figure>
+                            <figure class="row">
+                                <div class="col-sm-4"><a href="img/portfolioImg/UG/tablet1.png" data-lightbox="home"><img src="img/portfolioImg/UG/tablet1.png" class="img-responsive" alt="tablet 1"></a></div>
+                                <div class="col-sm-4"><a href="img/portfolioImg/UG/tablet2.png" data-lightbox="home"><img src="img/portfolioImg/UG/tablet2.png" class="img-responsive" alt="tablet 2"></a></div>
+                                <div class="col-sm-4"><a href="img/portfolioImg/UG/tablet3.png" data-lightbox="home"><img src="img/portfolioImg/UG/tablet3.png" class="img-responsive" alt="tablet 3"></a></div>
+                            </figure>
+                            <p><span class="text-info">Technologies:</span> HTML5, CSS3 and JS, <strong>Angular.js</strong>, <strong>Adobe Fireworks</strong>, Stylus, Google Chrome Dev tools, <strong>Apple Developer Kit</strong>, Subversion, JIRA.</p>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-sm-9">
+                                    <h3>BioSpecimen Registration web app</h3>
+                                    <h4><small>for Novartis Institutes for BioMedical Research</small></h4>
+                                </div>
+                                <div class="col-sm-3 companyLogo">
+                                    <img src="img/portfolioImg/novartis/nibrLogo.jpg" alt="NIBR">
+                                </div>
+                            </div>
+
+                            <hr />
+                            <p><span class="text-info">Description:</span> Unfortunately, this app is for internal use only and corporate policy forbids me to share its code,
+                                but you can estimate it via next screen shots and fragments:
+                            </p>
+                            <figure class="row">
+                                <div class="col-sm-2 col-sm-offset-1"><a href="img/portfolioImg/novartis/search.png" data-lightbox="home"><img src="img/portfolioImg/novartis/search-preview.png" class="img-responsive" alt="Search page"></a></div>
+                                <div class="col-sm-2"><a href="img/portfolioImg/novartis/curation.png" data-lightbox="home"><img src="img/portfolioImg/novartis/curation-preview.png" class="img-responsive" alt="Curation page"></a></div>
+                                <div class="col-sm-2"><a href="img/portfolioImg/novartis/attrManagement.png" data-lightbox="home"><img src="img/portfolioImg/novartis/attrManagement-preview.png" class="img-responsive" alt="Administration page"></a></div>
+                                <div class="col-sm-2"><a href="img/portfolioImg/novartis/home.png" data-lightbox="home"><img src="img/portfolioImg/novartis/home-preview.png" class="img-responsive" alt="Home page"></a></div>
+                                <div class="col-sm-2"><a href="img/portfolioImg/novartis/register.png" data-lightbox="home"><img src="img/portfolioImg/novartis/register-preview.png" class="img-responsive" alt="Registration page"></a></div>
+                            </figure>
+                            <figure class="row">
+                                <div class="col-sm-4"><a href="img/portfolioImg/novartis/code1.png" data-lightbox="home"><img src="img/portfolioImg/novartis/code1-preview.png" class="img-responsive" alt="Code"></a></div>
+                                <div class="col-sm-4"><a href="img/portfolioImg/novartis/code2.png" data-lightbox="home"><img src="img/portfolioImg/novartis/code2-preview.png" class="img-responsive" alt="Code"></a></div>
+                                <div class="col-sm-4"><a href="img/portfolioImg/novartis/code3.png" data-lightbox="home"><img src="img/portfolioImg/novartis/code3-preview.png" class="img-responsive" alt="Code"></a></div>
+                            </figure>
+                            <p><span class="text-info">Technologies:</span> On the top of <strong>HTML5, CSS3 and JS,</strong> we used <strong>Backbone+marionette</strong> as MVC JS framework,
+                                <strong>Stylus</strong> as css prepocessor, <strong>Subversion</strong> as version control system,
+                                <strong>Node.js Brunch</strong> as assembler, <strong>Datatables and D3</strong> as data visualisation modules and plenty of other js libraries (<strong>jQuery, ect.</strong>).</p>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-sm-10">
+                                    <h3>Corporate web site</h3>
+                                    <h4><small>for Lanks, Ltd.</small></h4>
+                                    <a href="http://www.lanks.org" target="_blank">Check web site</a>
+                                </div>
+                                <div class="col-sm-2 companyLogo">
+                                    <img src="img/portfolioImg/lanks/lanksLogo.png" alt="Lanks">
+                                </div>
+                            </div>
+                            <hr />
+                            <p><span class="text-info">Description:</span> Lanks web site was designed to inform Russian customers about prices and services of company and also give them the possibility
+                                to calculate price of transportation and track their package. Additionally, special module allows content managers and operators to update news and package data without interaction with
+                                site crew.
+                            </p>
+                            <figure class="row">
+                                <div class="col-sm-4"><a href="img/portfolioImg/lanks/lanksMain.png" data-lightbox="home"><img src="img/portfolioImg/lanks/lanksMaint-preview.png" class="img-responsive" alt="lanks main"></a></div>
+                                <div class="col-sm-4"><a href="img/portfolioImg/lanks/lanksServices.png" data-lightbox="home"><img src="img/portfolioImg/lanks/lanksServicest-preview.png" class="img-responsive" alt="lanks services"></a></div>
+                                <div class="col-sm-4"><a href="img/portfolioImg/lanks/lanksContact.png" data-lightbox="home"><img src="img/portfolioImg/lanks/lanksContactt-preview.png" class="img-responsive" alt="lanks contact"></a></div>
+                            </figure>
+                            <p><span class="text-info">Technologies:</span> <strong>semantic HTML5</strong> with fallback for old browsers, <strong>AJAX</strong> for price calculations and package tracking.
+
+                            </p>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-sm-7">
+                                    <h3>My current web site</h3>
+                                    <h4><small>for me and you :-)</small></h4>
+                                    <a href="/">Check web site</a>
+                                </div>
+                                <div class="col-sm-5 companyLogo">
+                                    <img src="img/portfolioImg/mySite/webSpaceLogo.png" alt="My web space">
+                                </div>
+                            </div>
+                            <hr />
+                            <p><span class="text-info">Description:</span> I tried to make it as simple and clear as it is possible.
+                                It is mobile-friendly and will work fine on any device from smartphone and tablet to widescreen monitor and TV.
+                            <p>Here is how it looks on other devices:</p>
+                            </p>
+                            <figure class="row">
+                                <div class="col-sm-3 text-center">Desktop:<a href="img/portfolioImg/mySite/desktop1.png" data-lightbox="home"><img src="img/portfolioImg/mySite/desktop1.png" class="img-responsive" alt="desktop"></a></div>
+                                <div class="col-sm-3 text-center">Tablet:<a href="img/portfolioImg/mySite/tablet1.png" data-lightbox="home"><img src="img/portfolioImg/mySite/tablet1.png" class="img-responsive" alt="tablet"></a></div>
+                                <div class="col-sm-3 text-center">Mobile 1:<a href="img/portfolioImg/mySite/mobile1.png" data-lightbox="home"><img src="img/portfolioImg/mySite/mobile1.png" class="img-responsive" alt="mobile 1"></a></div>
+                                <div class="col-sm-3 text-center">Mobile 2:<a href="img/portfolioImg/mySite/mobile2.png" data-lightbox="home"><img src="img/portfolioImg/mySite/mobile2.png" class="img-responsive" alt="mobile 2"></a></div>
+                            </figure>
+                            <p><span class="text-info">Technologies:</span> <strong>semantic HTML5, Bootstrap 3, Lightbox</strong></p>
+                        </li>
+                    </ul>
+                </article>
+                <article class="panel panel-default">
+                    <div class="panel-heading panelBlueBg">
+                        <h3 class="panel-title">Hobbies and open source</h3>
+                    </div>
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-sm-10">
+                                    <h3>StreamViewer</h3>
+                                    <h4>Hobby <small>2014</small></h4>
+                                    <a href="streams" target="_blank">Check web site</a>
+                                </div>
+                                <div class="col-sm-2">
+                                    <img src="img/portfolioImg/hobby/streamViewer.png" class="img-responsive roundCorner center-block" alt="Mobile-friendly prototype">
+                                </div>
+                            </div>
+                            <hr />
+                            <p><span class="text-info">Description:</span> Single page web application for comfortable view of several video streams from Twitch.tv and CyberGame.tv. Works in all modern browsers, including tablets. Source code is <a href="https://github.com/Nightspeller/webResume" target="_blank">available on GitHub</a>.
+                            </p>
+                            <p><span class="text-info">Technologies:</span> SPA, <strong>API consumption</strong>, flex-box.
+                        </li>
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-sm-10">
+                                    <h3>Mobile-friendly prototypes</h3>
+                                    <h4>Hobby <small>2013</small></h4>
+                                    <a href="http://test.nightspeller.net/" target="_blank">Check web site</a>
+                                </div>
+                                <div class="col-sm-2">
+                                    <img src="img/portfolioImg/hobby/respLanks.jpg" class="img-responsive roundCorner center-block" alt="Mobile-friendly prototype">
+                                </div>
+                            </div>
+                            <hr />
+                            <p><span class="text-info">Description:</span> I like prototyping. For example, here is a really fast developed <strong>prototype</strong> of existing Lanks web site.
+                                I used Bootstrap 3 which makes it smartphone and tablet friendly without any loss of functionality.
+                            </p>
+                            <p><span class="text-info">Technologies:</span> Responsive web design with <strong>Bootsrtap 3</strong>.
+                        </li>
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-sm-10">
+                                    <h3>Alpha Centauri Datalinks</h3>
+                                    <h4>Hobby, open source <small>2013</small></h4>
+                                </div>
+                                <div class="col-sm-2">
+                                    <img src="img/portfolioImg/hobby/datalinks.jpg" class="img-responsive roundCorner center-block" alt="Alpha Centauri Datalinks">
+                                </div>
+                            </div>
+                            <hr />
+                            <p><span class="text-info">Description:</span> Small Backbone web application simulates and extends a behaviour of Datalinks library of Sid Meyer's Alpha Centauri video game.
+                                It allows player to receive information about technology, its requirements and provided bonuses; also allows to see a tech tree for selected discovery.
+                            </p>
+                            <p><span class="text-info">Technologies:</span> <strong>Backbone</strong>.
+                        </li>
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-sm-10">
+                                    <h3>Serj Nights's Star Journey</h3>
+                                    <h4>Hobby, open source <small>2012</small></h4>
+                                    <a href="http://game.nightspeller.net/" target="_blank">Check web site</a>
+                                </div>
+                                <div class="col-sm-2">
+                                    <img src="img/portfolioImg/hobby/starJ.png" class="img-responsive roundCorner center-block" alt="Serj Nights's Star Journey">
+                                </div>
+                            </div>
+                            <hr />
+                            <p><span class="text-info">Description:</span> Another <strong>prototype</strong> - my first experience in HTML5 canvas game development.
+                                Small 3-levels screen slider game was written for a week and should be considered as learning via practice.
+                                Best performance in Mozilla Firefox browser. Source code is available on GitHub, but beware - it is <strong>not optimized</strong> for end user usage!
+                            </p>
+                            <p><span class="text-info">Technologies:</span> <strong>HTML5 Canvas, SVG </strong>.
+                        </li>
+                    </ul>
+                </article>
+                <article class="panel panel-default">
+                    <div class="panel-heading panelBlueBg">
+                        <h3 class="panel-title">Links</h3>
+                    </div>
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            My updated resume:
+                            <a href="Resume%20Sidorov%20Sergei.docx" class="btn btn-default btn-sm">
+                                <span class="glyphicon glyphicon-star"></span> Resume
+                            </a>
+                        </li>
+                        <li class="list-group-item">
+                            My profile on GitHub:
+                            <a href="https://github.com/Nightspeller"  target="_blank" class="btn btn-default btn-sm">
+                                <span class="glyphicon glyphicon-star"></span> GitHub profile
+                            </a>
+                        </li>
+                        <li class="list-group-item">
+                            My profile on LinkedIn:
+                            <a href="http://www.linkedin.com/profile/view?id=202746511"  target="_blank" class="btn btn-default btn-sm">
+                                <span class="glyphicon glyphicon-star"></span> LinkedIn profile
+                            </a>
+                        </li>
+                    </ul>
+                </article>
+            </section>
+            <footer>
+
+            </footer>
+        </div>
+
+        <script src="js/jquery-2.1.3.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        <script src="js/lightbox-2.6.min.js"></script>
+    </body>
+</html>

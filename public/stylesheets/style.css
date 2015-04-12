@@ -1,0 +1,53 @@
+.nav-tabs>li>a:hover,
+.nav>li>a:focus {
+  background: #d9edf7;
+}
+.faq ul div:first-letter {
+  color: #000;
+  font-weight: bold;
+}
+figure div img {
+  padding: 2px;
+  margin: auto;
+  border: 1px #fff solid;
+  max-height: 200px;
+}
+figure div img:hover {
+  cursor: pointer;
+  border: 1px #008000 solid;
+  border-radius: 3px;
+}
+.roundCorner {
+  border-radius: 5px;
+}
+.companyLogo {
+  text-align: center;
+  max-height: 90px;
+}
+.companyLogo > img {
+  display: inline;
+  max-height: inherit;
+  max-width: 100%;
+}
+.center-block {
+  display: block;
+  margin: auto;
+}
+.panelGreenBg {
+  background: #dff0d8;
+}
+.panel-heading.panelBlueBg {
+  background-color: #d9edf7;
+}
+.container > header h1,
+.niceFont {
+  text-align: center;
+  font-size: 4em;
+  font-family: 'Playball', cursive;
+}
+.niceFont {
+  font-size: 3em;
+}
+address {
+  padding: 2em;
+}
