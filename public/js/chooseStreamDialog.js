@@ -125,6 +125,7 @@ function loadStreamsList(game, page) {
     channelChooser.find('.glyphicon-backward').on('click', function(){if (page !== 0) loadStreamsList(game, page-1)});
     channelChooser.find('.glyphicon-forward').on('click', function(){loadStreamsList(game, page+1)});
     channelChooser.find('.glyphicon-remove').on('click', function(){$('#streamChooser').html('').hide();});
+    game = escape(game);
     $.ajax({
         type: 'GET',
         mimeType: 'application/vnd.twitchtv.v2+json',
