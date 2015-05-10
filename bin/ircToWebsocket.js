@@ -13,6 +13,10 @@ module.exports = function() {
             message = JSON.parse(message);
             if (message.auth) {
                 currentConnection = message;
+                if (bot) {
+                    bot.removeAllListeners();
+                    bot = '';
+                }
                 bot = new irc.Client('irc.twitch.tv', currentConnection.userName, {
                     userName: currentConnection.userName,
                     port: 6667,
