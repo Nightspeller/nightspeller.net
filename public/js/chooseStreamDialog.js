@@ -224,6 +224,7 @@ function showCybergamePage(channelsData, page) {
 }
 
 
+/*
 function showAllGoodgameStreams() {
     $.ajax({
         type: 'POST',
@@ -232,4 +233,4 @@ function showAllGoodgameStreams() {
     }).done(function( data ) {
         console.log(data);
     });
-}showAllGoodgameStreams()
+}showAllGoodgameStreams()*/
