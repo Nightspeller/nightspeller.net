@@ -42,12 +42,13 @@ module.exports = function() {
          //   console.log('Closing: ', message);
             if (bot) {
                 bot.removeAllListeners();
+                bot = '';
             } else {
                 console.log('No bot on closing', bot);
             }
         });
     });
-}
+};
 
 /*var bot = new irc.Client('irc.twitch.tv', 'serg_nightspeller', {
  userName: 'serg_nightspeller',

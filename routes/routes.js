@@ -19,4 +19,8 @@ router.get('/streams', function(req, res, next) {
     res.render('streams', { title: 'Express' });
 });
 
+router.get('/twitch-login', function(req, res, next) {
+    res.render('twitch-login', { title: 'Express' });
+});
+
 module.exports = router;
