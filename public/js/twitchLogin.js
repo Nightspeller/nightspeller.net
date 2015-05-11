@@ -9,7 +9,9 @@ $('document').ready(function(){
                  scope: ['chat_login']
              });
          } else {
-             document.location.href = document.location.href+'#token='+status.token;
+             console.log(window.external);
+             if (window.external) window.external.notify(status.token);
+            // document.location.href = document.location.href+'#token='+status.token;
          }
 
         Twitch.api({method: 'oauth2/token'}, function(error, data) {
