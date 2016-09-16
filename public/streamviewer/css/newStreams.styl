@@ -1,0 +1,32 @@
+html
+  height 100%
+  font-size 100%
+  body
+    height 100%
+    background #000000
+    color #c0c0c0
+    margin 0
+    padding 0
+    .flexContainer
+      display flex
+      flex-direction column
+      height 100%
+      .streamOverviewList
+        text-align center
+        flex 0 1 auto
+      .mainAndChat
+        position relative
+        flex 2 0 auto
+        display flex
+        flex-direction row
+        .mainScreenSection
+          position relative
+          border 1px solid silver
+          flex-grow 1000
+          color silver
+        .chatSection
+          position relative
+          border 1px solid silver
+          flex-basis 300px
+          color silver
+          margin-right 1px

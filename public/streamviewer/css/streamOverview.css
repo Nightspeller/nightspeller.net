@@ -1,0 +1,61 @@
+.streamOverview {
+  display: inline-block;
+  position: relative;
+  width: 24%;
+  min-width: 200px;
+  border: 1px solid #c0c0c0;
+}
+.streamOverview .streamOverviewContent {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.streamOverview .streamOverviewContent .streamOverviewControls {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 0;
+  z-index: 2;
+}
+.streamOverview .streamOverviewContent .streamOverviewControls button {
+  min-width: 35px;
+  width: 20%;
+  color: #fff;
+  background: rgba(0,0,0,0.3);
+  border: none;
+}
+.streamOverview .streamOverviewContent .streamOverviewControls .pressedButton {
+  color: #f00;
+}
+.streamOverview .streamOverviewContent .streamOverviewVideo {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.streamOverview .streamOverviewContent .streamOverviewVideo video,
+.streamOverview .streamOverviewContent .streamOverviewVideo iframe {
+  width: 100%;
+  height: 100%;
+}
+.streamOverview .streamOverviewContent .additionalInfo {
+  position: absolute;
+  top: 30%;
+  left: 0;
+  width: 100%;
+  height: 70%;
+  z-index: 0;
+  overflow: hidden;
+}
+.streamOverview .streamOverviewContent .additionalInfo .name {
+  color: #ff0;
+}
+.streamOverview:before {
+  content: "";
+  display: block;
+  margin-top: 56.25%;
+}

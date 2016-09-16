@@ -16,7 +16,7 @@ router.get('/portfolio', function(req, res, next) {
 });
 
 router.get('/streams', function(req, res, next) {
-    res.render('streams', { title: 'Express' });
+    res.render('newstreams', { title: 'Express' });
 });
 
 router.get('/twitch-login', function(req, res, next) {

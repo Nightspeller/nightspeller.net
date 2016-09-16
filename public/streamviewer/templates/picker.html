@@ -1,0 +1,26 @@
+﻿<div class='picker' data-ng-show='PickerService.showPicker'>
+    <div class='picker-overlay' data-ng-click='hidePicker()'></div>
+    <div class='picker-dialog'>
+        <button class="picker-back win-button" data-ng-click='back()' data-ng-show="PickerService.statesStack[PickerService.statesStack.length - 1] !== 'sources'">&#xe112;</button>
+        
+        <button class="picker-close win-button" data-ng-click='hidePicker()'>&#xe10a;</button>
+        <div class='picker-content'>
+            <div class="picker-pagination">
+                <button data-ng-click='prevPage()' class="win-button">&#xe100; PREV</button>
+                <button data-ng-click='nextPage()' class="win-button">NEXT &#xe101;</button>
+            </div>
+
+            <div class="searchContainer">
+                <input id="gameSearchInput" type="text" placeholder="Search by game" ng-model="gameSearchInput" ng-change="gameSearch()"/>
+                <input id="streamerSearchInput" type="text" placeholder="Search by streamer" ng-model="streamerSearchInput" ng-change="streamerSearch()"/>
+            </div>
+
+            <div class="card" data-ng-repeat="card in PickerService.content" data-ng-click="cardClicked(card)">
+                <div class="title">{{card.title | limitTo: 50}}</div>
+                <div class="description">{{card.description}}</div>
+                <img class="image" data-ng-src="{{card.img}}"/>
+            </div>
+
+        </div>
+    </div>
+</div>

@@ -1,0 +1,21 @@
+﻿<div class="streamOverview">
+    <div class="streamOverviewContent">
+        <div class="streamOverviewControls">
+            <button title="Add stream" data-ng-click="add()" class="win-button">&#xe109;</button>
+            <button title="Refresh" data-ng-click="refresh()"class="win-button">&#xe149;</button>
+            <button title="Remove stream" data-ng-click="remove()"class="win-button">&#xe107;</button>
+            <button title="Preview" class="win-button" data-ng-class="{'pressedButton': StreamsStateManager.streams[num].status === 'preview'}" 
+                    data-ng-click="preview($event)">&#xe158;</button>
+            <!--data-ng-mouseover="preview($event)" data-ng-mouseleave="preview($event)"-->
+            <button type="button" title="Move to big screen" class="win-button" data-ng-class="{'pressedButton': StreamsStateManager.streams[num].status === 'active'}" data-ng-click="moveToMain()">&#xe18c;</button>
+        </div>
+
+        <div class="streamOverviewVideo"></div>
+        <div class="additionalInfo" data-ng-show="StreamsStateManager.streams[num].info !== ''">
+            <div class="name">{{StreamsStateManager.streams[num].info.display_name}}:</div>
+            <!--<div>{{StreamsStateManager.streams[num].info.status}}</div>-->
+            <div>{{StreamsStateManager.streams[num].info.game}}</div>
+            <div>{{StreamsStateManager.streams[num].info.viewers}} viewers</div>
+        </div>
+    </div>
+</div>

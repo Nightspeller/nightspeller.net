@@ -1,0 +1,20 @@
+.chat
+  height 100%
+  width 100%
+  display flex
+  flex-flow column
+  .chatSelector
+    flex 0 1 auto
+    padding 3px
+    text-align center
+    button
+      min-width 23%
+  .chatContainers
+    position relative
+    padding 0 3px 3px 3px
+    flex 1 1 auto
+    x-ms-webview, div
+      position absolute
+      width 100%
+      height 100%
+      display none
