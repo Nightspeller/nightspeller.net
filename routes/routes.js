@@ -16,7 +16,7 @@ router.get('/portfolio', function(req, res, next) {
 });
 
 router.get('/streams', function(req, res, next) {
-    res.render('newstreams', { title: 'Express' });
+    res.redirect('http://streams.nightspeller.net');
 });
 
 router.get('/twitch-login', function(req, res, next) {
