@@ -1,0 +1,70 @@
+// General
+
+.nights-font
+  font-family 'Playball', cursive
+
+.dotted-underline
+  cursor pointer
+  border-bottom dotted 1px black
+
+
+// Template
+header
+  .streamviewer-link
+    float right
+
+main
+  padding-top: 3rem
+  padding-bottom: 2rem
+
+.extra-margins
+  margin-top 1rem
+  margin-bottom 2.5rem
+
+
+
+// Home page
+.jumbotron
+  text-align center
+  ul
+    text-align left
+    li:before
+      content "\2713"
+      padding-right 0.3em
+
+.sneakpeek-header
+  text-align center
+
+.sneakpeek
+  .card-text
+    text-align justify
+
+.row.is-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.row.is-flex > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px)
+  .sneakpeek, .other-projects
+    display flex
+    .col-md-4
+      display flex
+
+
+
+// Portfolio
+.carousel-indicators
+  li
+    border-color black
+  li.active
+    background #0d47a1
+
+
+.carousel-item
+  max-height 300px
+
+
